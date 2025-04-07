@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="818dp"
+        android:src="@drawable/group_9" />
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="797dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-6dp"
+        android:src="@drawable/group8" />
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="430dp"
+        android:text="타이머 화면 입니다"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/watchButton"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="757dp"
+        android:background="#fff"
+        android:onClick="watcher"
+        android:src="@drawable/gro01"
+        android:contentDescription="스톱워치"/>
+
+</RelativeLayout>
